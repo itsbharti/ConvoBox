@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{margin: 0px; padding: 0px;}
+
+body{ font-family: "open Sans" , sans-serif; background: #FAF6FF; }
+
+header {
+        width: 100%;
+        height: 85px;
+        background: #fff; 
+        position: fixed; top: 2px; left: 0px; z-index: 1000;} 
+/* 
+header .row{
+        margin: 0px 
+        !important;} */
+
+header .logo {
+        margin-top: 15px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;}
+
+header .logo img {
+        width: 59px;
+        height: 58px;}
+
+.logo-title{padding: 2px;}
+.convo {color: #000; font: Poppins; opacity: 80%; font-size: 20px; line-height: 33px;}
+.box {color: #000; font: Poppins; opacity: 80%; font-size: 20px; line-height: 33px; font-weight: 700;}
+
+header button.rounded-circle{ margin-top: 4px;  min-width:50px !important ; width: 50px !important; height: 50px !important; color: #7F2DF1 !important;  }
+
+.create-broadcasting {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 700;
+    color: #53545C;
+}
+
+.part2{
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+
+
+.part3{
+    margin-top: 19px;
+    margin-left: 60px;
+}
+.status{
+    margin-left: 500px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #030229;
+    line-height: 18px;
+    opacity: 70%;
+}
+.live{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 2opx; 
+  color:#20B038;
+}
+
+.plan{
+    margin-left: 36px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #030229;
+    line-height: 18px;
+    opacity: 70%;
+}
+.active{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 2opx; 
+    color:#20B038;
+}
+
+.part4{
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 32px;
+}
+#account-menu li {font-size: 12px !important;}
+.avtar{margin-right: 10px !important; background: #7F2DF1 !important; }
+.myacc {
+    background-color: #7F2DF1 ; 
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .myacc:hover {
+    background-color: #8e40fb; 
+  }
+
+
+  /* .................sidebar css..................................................................... */
+.main .sidebarWrapper {width: 18%; flex: 0 0 18%; transition: all 0.3s ease-in-out;;}
+.main .sidebarWrapper .sidebar{width: 16%; height: 100vh; position: fixed ; top: 85px; background: #fff;}
+
+.main .sidebarWrapper .sidebar ul{margin-top: 37px !important; margin-bottom: 0px !important; padding: 10px !important; background: #7F2DF1 !important; border-radius: 15px !important; height: 50px !important;}
+
+.main .sidebarWrapper .sidebar ul li{list-style: none;   }
+
+.main .sidebarWrapper .sidebar ul li button{color: #fff !important; }
+.main .sidebarWrapper .sidebar ul li button .iconWrapper {display: flex; align-items: left ; justify-content: right; height: 25px; font-weight: 700; font-size: 100px;} 
+.main .sidebarWrapper .sidebar ul li button .iconWrapper svg{color: #0b0b0b; font-size: 20px; opacity: 0.8; font-size: 22px; }
