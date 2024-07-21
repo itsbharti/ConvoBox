@@ -8,7 +8,7 @@ header {
         width: 100%;
         height: 85px;
         background: #fff; 
-        position: fixed; top: 2px; left: 0px; z-index: 1000;} 
+        position: fixed; top: 0px; left: 0px; z-index: 1000;} 
 /* 
 header .row{
         margin: 0px 
@@ -110,7 +110,7 @@ header button.rounded-circle{ margin-top: 4px;  min-width:50px !important ; widt
 
 
   /* .................sidebar css..................................................................... */
-.main .sidebarWrapper {width: 18%; flex: 0 0 18%; transition: all 0.3s ease-in-out;;}
+.main .sidebarWrapper {width: 16%; flex: 0 0 16%; transition: all 0.3s ease-in-out;;}
 .main .sidebarWrapper .sidebar{width: 16%; height: 100vh; position: fixed ; top: 85px; background: #fff;}
 
 .main .sidebarWrapper .sidebar ul{margin-top: 25px !important; margin-bottom: 0px !important; padding: 10px !important;  height: 380px !important;}
@@ -118,7 +118,7 @@ header button.rounded-circle{ margin-top: 4px;  min-width:50px !important ; widt
 .main .sidebarWrapper .sidebar ul li{list-style: none;  border-radius: 50px !important; }
 
 .main .sidebarWrapper .sidebar ul li button{padding: 16px !important;  color:  #828282 !important; display: flex; align-items: center; justify-content: flex-start; border-radius: 16px !important; font-size: 13px !important;}
-.main .sidebarWrapper .sidebar ul li button .icon {display: flex; align-items: left ; justify-content: right; height: 25px; font-weight: 700; font-size: 1000px; } /* font-size: 1000px; */
+.main .sidebarWrapper .sidebar ul li button .icon {display: flex; align-items: left ; justify-content: right; height: 25px; font-weight: 700;  } /* font-size: 1000px; */
 .main .sidebarWrapper .sidebar ul li button .icon svg{color: #0b0b0b; font-size: 20px; opacity: 0.8; font-size: 22px; }
 .main .sidebarWrapper .sidebar ul li button .icon .icn {margin-right: 12px; color: #848396;}
 .main .sidebarWrapper .sidebar ul li button.active {
@@ -131,11 +131,16 @@ header button.rounded-circle{ margin-top: 4px;  min-width:50px !important ; widt
 }
 
  /* contact us and logout */
-.main .sidebarWrapper .sidebar .ul-2{margin-top: 210px !important; margin-bottom: 0px !important;}
+.main .sidebarWrapper .sidebar .ul-2{margin-top: 180px !important; margin-bottom: 0px !important;}
 .main .sidebarWrapper .sidebar .ul-2 li button{padding: 14px !important;  color:  #828282 !important; display: flex; align-items: center; justify-content: flex-start; border-radius: 16px !important; font-size: 13px !important;}
 .main .sidebarWrapper .sidebar .ul-2 li button .contactIcon{display: flex; align-items: left ; justify-content: right; height: 25px; font-weight: 700; }
 .main .sidebarWrapper .sidebar .ul-2 li button .contactIcon svg{color: #0b0b0b; font-size: 20px; opacity: 0.8; font-size: 22px; }
 .main .sidebarWrapper .sidebar .ul-2 li button .logOutIcon{display: flex; align-items: left ; justify-content: right; height: 25px;  font-weight: 700; }
 .main .sidebarWrapper .sidebar .ul-2 li button .logOutIcon svg{color: #FF0000; font-size: 20px; opacity: 0.8; font-size: 22px; }
 .main .sidebarWrapper .sidebar .ul-2 li button .contactIcon .icnC {margin-right: 12px; color: #848396;}
-.main .sidebarWrapper .sidebar .ul-2 li button .logOutIcon .icnL {margin-right: 12px; color:}
+.main .sidebarWrapper .sidebar .ul-2 li button .logOutIcon .icnL {margin-right: 12px; color:#FF0000}
+
+
+/* 
+........................Dashboard Area............................................................ */
+.content{width: 1254px; height: 706px; background: yellow;  margin-top: 85px;}
