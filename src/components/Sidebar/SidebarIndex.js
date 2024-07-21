@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Button from '@mui/material/Button';
-import { RxDashboard } from "react-icons/rx";
+import { BsFillGridFill } from "react-icons/bs";
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
 import { CiSettings } from "react-icons/ci";
 import { IoPeopleOutline } from "react-icons/io5";
@@ -21,7 +21,7 @@ const Sidebar = () => {
                     <li>
                         <Button className= {`w-100 sidebarmenu ${activeItem === '/' ? 'active' : ''}`} 
                             onClick={() => handleItemClick('/')}>
-                            <span className='icon'><RxDashboard className="icn" ></RxDashboard></span>
+                            <span className='icon'><BsFillGridFill className="icn" ></BsFillGridFill></span>
                              Dashboard
                         </Button>
                     </li>
