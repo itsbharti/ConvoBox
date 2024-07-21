@@ -111,10 +111,15 @@ header button.rounded-circle{ margin-top: 4px;  min-width:50px !important ; widt
 .main .sidebarWrapper {width: 18%; flex: 0 0 18%; transition: all 0.3s ease-in-out;;}
 .main .sidebarWrapper .sidebar{width: 16%; height: 100vh; position: fixed ; top: 85px; background: #fff;}
 
-.main .sidebarWrapper .sidebar ul{margin-top: 37px !important; margin-bottom: 0px !important; padding: 10px !important; background: #7F2DF1 !important; border-radius: 15px !important; height: 50px !important;}
+.main .sidebarWrapper .sidebar ul{margin-top: 37px !important; margin-bottom: 0px !important; padding: 10px !important;  height: 50px !important;}
 
-.main .sidebarWrapper .sidebar ul li{list-style: none;   }
+.main .sidebarWrapper .sidebar ul li{list-style: none;  border-radius: 50px !important; }
 
-.main .sidebarWrapper .sidebar ul li button{color: #fff !important; }
-.main .sidebarWrapper .sidebar ul li button .iconWrapper {display: flex; align-items: left ; justify-content: right; height: 25px; font-weight: 700; font-size: 100px;} 
-.main .sidebarWrapper .sidebar ul li button .iconWrapper svg{color: #0b0b0b; font-size: 20px; opacity: 0.8; font-size: 22px; }
+.main .sidebarWrapper .sidebar ul li button{padding: 16px !important; color:  #828282 !important; display: flex; align-items: center; justify-content: flex-start; border-radius: 16px !important;}
+.main .sidebarWrapper .sidebar ul li button .icon {display: flex; align-items: left ; justify-content: right; height: 25px; font-weight: 700; font-size: 100px;} 
+.main .sidebarWrapper .sidebar ul li button .icon svg{color: #0b0b0b; font-size: 20px; opacity: 0.8; font-size: 22px; }
+.main .sidebarWrapper .sidebar ul li button .icon .icn {margin-right: 12px; color: #848396;}
+.main .sidebarWrapper .sidebar ul li button.active {
+    color: white !important;
+    background-color: #7F2DF1 !important;
+}
