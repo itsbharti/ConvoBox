@@ -8,7 +8,7 @@ import { PiTelevision } from "react-icons/pi";
 import { CgFormatLeft } from "react-icons/cg";
 
 import { IoCallOutline } from "react-icons/io5";
-import { AiOutlineLogin } from "react-icons/ai";
+import { IoLogOutOutline } from "react-icons/io5";
 
 
 
@@ -83,7 +83,7 @@ const Sidebar = () => {
                     <li>
                         <Button 
                             className={`w-100 sidebarmenu `}>
-                            <span className='logOutIcon'><AiOutlineLogin className="icnL"></AiOutlineLogin> </span>
+                            <span className='logOutIcon'><IoLogOutOutline className="icnL"></IoLogOutOutline> </span>
                              Log Out
                         </Button>
                     </li>
