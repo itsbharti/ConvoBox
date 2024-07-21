@@ -7,6 +7,10 @@ import { IoPeopleOutline } from "react-icons/io5";
 import { PiTelevision } from "react-icons/pi";
 import { CgFormatLeft } from "react-icons/cg";
 
+import { IoCallOutline } from "react-icons/io5";
+import { AiOutlineLogin } from "react-icons/ai";
+
+
 
 const Sidebar = () => {
     const [activeItem, setActiveItem] = useState('/');
@@ -67,6 +71,25 @@ const Sidebar = () => {
                         </Button>
                     </li>
                 </ul>
+
+                <ul className="ul-2">
+                    <li>
+                        <Button 
+                            className={`w-100 sidebarmenu `}>
+                            <span className='contactIcon'><IoCallOutline className="icnC"></IoCallOutline> </span>
+                             Contact Us
+                        </Button>
+                    </li>
+                    <li>
+                        <Button 
+                            className={`w-100 sidebarmenu `}>
+                            <span className='logOutIcon'><AiOutlineLogin className="icnL"></AiOutlineLogin> </span>
+                             Log Out
+                        </Button>
+                    </li>
+                </ul>
+
+             
             </div>
         </>
     )
