@@ -1,3 +1,59 @@
 .dashboard { margin-top: 85px; height: 670px;}
-.dashboard .stepIndicator{  background: white; width: 726px; height: 51px; margin-left: 277px; border-radius: 50px; margin-top: -50px;}  
-.dashboard .footer{height: 80px; background: #fff; margin-top: 535px;}
+.dashboard .stepIndicator{  background: white; width: 726px; height: 51px; margin-left: 277px; border-radius: 50px; margin-top: -60px;}  
+.dashboard .footer{height: 80px; background: #fff; }
+.dashboard .templateArea{ margin-left: 30px; height: 451px; background: green;}
+
+.footer-btn{ border-style: solid;
+    border-color: #7F2DF1;
+border-radius: 9px;
+padding: 5px 40px;
+color: #7F2DF1;
+font-weight: 500;}
+
+.searchBox{
+    margin-top: 15px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchBox .search-template{
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid rgba(163, 174, 208 ,1);
+    border-radius: 5px;
+
+}
+.searchBox .search-template .input{
+    width: 400px;
+    padding-left: 10px;
+    font-size: 13px;
+    border:  #A3AED0;
+    border-radius: 5px;
+    color: black;
+    background: transparent;
+}
+
+.searchBox .select{margin-left: 30px;
+    color: #53545C;
+    width: 155px;
+    display: flex;
+    align-items: center;}
+
+.searchBox .select .arrow{
+    color:  #53545C !important;
+    margin-right: 10px;
+
+ }
+.searchBox .search-template .search-icn{
+    position: relative;
+    right: 30px;
+    top: 10px;
+    color:  #53545C !important;
+    font-size: 20px !important;
+} 
+
+.dashboard .templateCards {
+    margin-top: 20px; 
+  }
