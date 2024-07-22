@@ -20,7 +20,8 @@ const Dashboard = () => {
                 <StepIndicator />
             </div>
             <SearchBox className="searchBox" />
-            <Grid container spacing={2} className="templateCards" justifyContent="center">
+           <div className="templateArea">
+           <Grid container spacing={2} className="templateCards" justifyContent="center">
                 {templates.map((template, index) => (
                     <Grid item key={index}>
                         <TemplateCard
@@ -31,6 +32,7 @@ const Dashboard = () => {
                     </Grid>
                 ))}
             </Grid>
+           </div>
             <div className="footer">
                 <Footer />
             </div>
