@@ -8,7 +8,7 @@ const Dashboard = () => {
     return (
             <div className="dashboard">
                  <div className="stepIndicator d-flex align-items-center justify-content-center">  <StepIndicator ></StepIndicator>   </div>
-                    {/* <div className="footer"><Footer></Footer></div> */}
+                 <div className="footer"><Footer></Footer></div>
                 
             </div>
 
