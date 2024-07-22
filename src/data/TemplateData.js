@@ -6,8 +6,7 @@ const templates = [
       status: 'Approved',
       category: 'Marketing',
       description: 'Welcome to {{2}} One stop Solutions for all your Business needs',
-      date: 'En 20/05/2024',
-      selected: true,
+      date: 'En 20/05/2024'
     },
     {
       image: img,
@@ -15,8 +14,7 @@ const templates = [
       status: 'Approved',
       category: 'Marketing',
       description: 'Welcome to {{2}} One stop Solutions for all your Business needs',
-      date: 'En 20/05/2024',
-      selected: false,
+      date: 'En 20/05/2024'
     },
     {
       image: img,
@@ -24,8 +22,7 @@ const templates = [
       status: 'Approved',
       category: 'Marketing',
       description: 'Welcome to {{2}} One stop Solutions for all your Business needs',
-      date: 'En 20/05/2024',
-      selected: false,
+      date: 'En 20/05/2024'
     },
     {
       image: img,
@@ -33,8 +30,7 @@ const templates = [
       status: 'Approved',
       category: 'Marketing',
       description: 'Welcome to {{2}} One stop Solutions for all your Business needs',
-      date: 'En 20/05/2024',
-      selected: false,
+      date: 'En 20/05/2024'
     },
   ];
   
