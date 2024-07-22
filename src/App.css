@@ -117,7 +117,7 @@ header button.rounded-circle{ margin-top: 4px;  min-width:50px !important ; widt
 
 .main .sidebarWrapper .sidebar ul li{list-style: none;  border-radius: 50px !important; }
 
-.main .sidebarWrapper .sidebar ul li button{padding: 16px !important;  color:  #828282 !important; display: flex; align-items: center; justify-content: flex-start; border-radius: 16px !important; font-size: 13px !important;}
+.main .sidebarWrapper .sidebar ul li button{padding: 14px !important;  color:  #828282 !important; display: flex; align-items: center; justify-content: flex-start; border-radius: 16px !important; font-size: 13px !important;}
 .main .sidebarWrapper .sidebar ul li button .icon {display: flex; align-items: left ; justify-content: right; height: 25px; font-weight: 700;  } /* font-size: 1000px; */
 .main .sidebarWrapper .sidebar ul li button .icon svg{color: #0b0b0b; font-size: 20px; opacity: 0.8; font-size: 22px; }
 .main .sidebarWrapper .sidebar ul li button .icon .icn {margin-right: 12px; color: #848396;}
@@ -132,7 +132,7 @@ header button.rounded-circle{ margin-top: 4px;  min-width:50px !important ; widt
 
  /* contact us and logout */
 .main .sidebarWrapper .sidebar .ul-2{margin-top: 185px !important; margin-bottom: 0px !important;}
-.main .sidebarWrapper .sidebar .ul-2 li button{padding: 14px !important;  color:  #828282 !important; display: flex; align-items: center; justify-content: flex-start; border-radius: 16px !important; font-size: 13px !important;}
+.main .sidebarWrapper .sidebar .ul-2 li button{padding: 12px !important;  color:  #828282 !important; display: flex; align-items: center; justify-content: flex-start; border-radius: 16px !important; font-size: 13px !important;}
 .main .sidebarWrapper .sidebar .ul-2 li button .contactIcon{display: flex; align-items: left ; justify-content: right; height: 25px; font-weight: 700; }
 .main .sidebarWrapper .sidebar .ul-2 li button .contactIcon svg{color: #0b0b0b; font-size: 20px; opacity: 0.8; font-size: 22px; }
 .main .sidebarWrapper .sidebar .ul-2 li button .logOutIcon{display: flex; align-items: left ; justify-content: right; height: 25px;  font-weight: 700; }
