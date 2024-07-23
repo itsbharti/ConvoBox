@@ -10,19 +10,30 @@ import templates from "../../data/TemplateData";
 const Dashboard = () => {
     const [selectedCard, setSelectedCard] = useState(null);
 
+    const [searchName, setSearchName] = useState("")
+
     const handleSelect = (index) => {
         setSelectedCard(index);
     };
 
+    const handleSearch = (search) => {
+        setSearchName(search.toLowerCase());
+    }
+
+    const filteredTemplates = templates.filter(template =>
+        template.title.toLowerCase().includes(searchName)
+    );
+
+ 
     return (
         <div className="dashboard">
-            <div className="stepIndicator d-flex align-items-center justify-content-center">
-                <StepIndicator />
-            </div>
-            <SearchBox className="searchBox" />
-           <div className="templateArea">
-           <Grid container spacing={2} className="templateCards" justifyContent="center">
-                {templates.map((template, index) => (
+        <div className="stepIndicator d-flex align-items-center justify-content-center">
+            <StepIndicator />
+        </div>
+        <SearchBox onSearch={handleSearch} className="searchBox" />
+        <div className="templateArea">
+            <Grid container spacing={2} className="templateCards" justifyContent="center">
+                {filteredTemplates.map((template, index) => (
                     <Grid item key={index}>
                         <TemplateCard
                             {...template}
@@ -32,11 +43,12 @@ const Dashboard = () => {
                     </Grid>
                 ))}
             </Grid>
-           </div>
-            <div className="footer">
-                <Footer />
-            </div>
         </div>
+        <div className="footer">
+            <Footer />
+        </div>
+    </div>
+
     );
 }
 
