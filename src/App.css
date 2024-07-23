@@ -1,146 +1,335 @@
+/* Add media queries for responsiveness */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-*{margin: 0px; padding: 0px;}
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
-body{ font-family: "open Sans" , sans-serif; background: #FAF6FF; }
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #FAF6FF;
+}
 
 header {
-        width: 100%;
-        height: 85px;
-        background: #fff; 
-        position: fixed; top: 0px; left: 0px; z-index: 1000;} 
-/* 
-header .row{
-        margin: 0px 
-        !important;} */
+  width: 100%;
+  height: 85px;
+  background: #fff;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
 
 header .logo {
-        margin-top: 15px;
-        text-decoration: none;
-        display: flex;
-        align-items: center;}
+  margin-top: 15px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
 
 header .logo img {
-        width: 59px;
-        height: 58px;}
+  width: 59px;
+  height: 58px;
+}
 
-.logo-title{padding: 2px;}
-.convo {color: #000; font: Poppins; opacity: 80%; font-size: 20px; line-height: 33px;}
-.box {color: #000; font: Poppins; opacity: 80%; font-size: 20px; line-height: 33px; font-weight: 700;}
+.logo-title {
+  padding: 2px;
+}
 
-header button.rounded-circle{ margin-top: 4px;  min-width:50px !important ; width: 50px !important; height: 50px !important; color: #7F2DF1 !important;  }
+.convo {
+  color: #000;
+  font-size: 20px;
+  line-height: 33px;
+}
+
+.box {
+  color: #000;
+  font-size: 20px;
+  line-height: 33px;
+  font-weight: 700;
+}
+
+header button.rounded-circle {
+  margin-top: 4px;
+  min-width: 50px !important;
+  width: 50px !important;
+  height: 50px !important;
+  color: #7F2DF1 !important;
+}
 
 .create-broadcasting {
-    font-size: 22px;
-    line-height: 33px;
-    font-weight: 700;
-    color: #53545C;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 700;
+  color: #53545C;
 }
 
-.part2{
-    margin-top: 16px;
-    margin-left: 10px;
+.part2 {
+  margin-top: 16px;
+  margin-left: 10px;
 }
 
-
-
-.part3{
-    margin-top: 19px;
-    margin-left: 60px;
+.part3 {
+  margin-top: 19px;
+  margin-left: 60px;
 }
-.part3:hover{text-shadow: #7F2DF1;}
 
-.status{
-    margin-left: 500px;
-    font-size: 14px;
-    font-weight: 500;
-    color: #030229;
-    line-height: 18px;
-    opacity: 70%;
+.part3:hover {
+  text-shadow: #7F2DF1;
 }
-.live{
+
+.status {
+  margin-left: 500px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #030229;
+  line-height: 18px;
+  opacity: 70%;
+}
+
+.live {
   font-size: 16px;
   font-weight: 700;
-  line-height: 2opx; 
-  color:#20B038;
+  line-height: 20px;
+  color: #20B038;
 }
 
-.plan{
-    margin-left: 36px;
-    font-size: 14px;
-    font-weight: 500;
-    color: #030229;
-    line-height: 18px;
-    opacity: 70%;
-}
-.active{
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 2opx; 
-    color:#20B038;
+.plan {
+  margin-left: 36px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #030229;
+  line-height: 18px;
+  opacity: 70%;
 }
 
-.part4{
-    height: 50px;
-    width: 50px;
-    margin-top: 15px;
-    margin-left: 32px;
+.active {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #20B038;
 }
-#account-menu li {font-size: 12px !important;}
-.avtar{margin-right: 10px !important; background: #7F2DF1 !important; }
+
+.part4 {
+  height: 50px;
+  width: 50px;
+  margin-top: 15px;
+  margin-left: 32px;
+}
+
+#account-menu li {
+  font-size: 12px !important;
+}
+
+.avtar {
+  margin-right: 10px !important;
+  background: #7F2DF1 !important;
+}
+
 .myacc {
-    background-color: #7F2DF1 ; 
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 22px;
-    font-weight: 700;
-    cursor: pointer;
-    padding: 5px;
-  }
-  
-  .myacc:hover {
-    background-color: #8e40fb; 
-  }
+  background-color: #7F2DF1;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 5px;
+}
 
+.myacc:hover {
+  background-color: #8e40fb;
+}
 
-  /* .................sidebar css..................................................................... */
-.main .sidebarWrapper {height: 100vh; width: 16%; flex: 0 0 16%; transition: all 0.3s ease-in-out;;}
-.main .sidebarWrapper .sidebar{width: 16%; height: 100vh; position: fixed ; top: 85px; background: #fff;}
+/* Sidebar CSS */
+.main .sidebarWrapper {
+  height: 100vh;
+  width: 16%;
+  flex: 0 0 16%;
+  transition: all 0.3s ease-in-out;
+}
 
-.main .sidebarWrapper .sidebar ul{margin-top: 14px !important; margin-bottom: 0px !important; padding: 10px !important;  height: 380px !important;}
+.main .sidebarWrapper .sidebar {
+  width: 16%;
+  height: 100vh;
+  position: fixed;
+  top: 85px;
+  background: #fff;
+}
 
-.main .sidebarWrapper .sidebar ul li{list-style: none;  border-radius: 50px !important; }
+.main .sidebarWrapper .sidebar ul {
+  margin-top: 14px !important;
+  margin-bottom: 0px !important;
+  padding: 10px !important;
+  height: 380px !important;
+}
 
-.main .sidebarWrapper .sidebar ul li button{padding: 14px !important;  color:  #828282 !important; display: flex; align-items: center; justify-content: flex-start; border-radius: 16px !important; font-size: 13px !important;}
-.main .sidebarWrapper .sidebar ul li button .icon {display: flex; align-items: left ; justify-content: right; height: 25px; font-weight: 700;  } /* font-size: 1000px; */
-.main .sidebarWrapper .sidebar ul li button .icon svg{color: #0b0b0b; font-size: 20px; opacity: 0.8; font-size: 22px; }
-.main .sidebarWrapper .sidebar ul li button .icon .icn {margin-right: 12px; color: #848396;}
+.main .sidebarWrapper .sidebar ul li {
+  list-style: none;
+  border-radius: 50px !important;
+}
+
+.main .sidebarWrapper .sidebar ul li button {
+  padding: 14px !important;
+  color: #828282 !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 16px !important;
+  font-size: 13px !important;
+}
+
+.main .sidebarWrapper .sidebar ul li button .icon {
+  display: flex;
+  align-items: left;
+  justify-content: right;
+  height: 25px;
+  font-weight: 700;
+}
+
+.main .sidebarWrapper .sidebar ul li button .icon svg {
+  color: #0b0b0b;
+  font-size: 20px;
+  opacity: 0.8;
+  font-size: 22px;
+}
+
+.main .sidebarWrapper .sidebar ul li button .icon .icn {
+  margin-right: 12px;
+  color: #848396;
+}
+
 .main .sidebarWrapper .sidebar ul li button.active {
-    color: white !important;
-    background-color: #7F2DF1 !important;
+  color: white !important;
+  background-color: #7F2DF1 !important;
 }
+
 .main .sidebarWrapper .sidebar ul li button.active .icon .icn {
-    color: white !important;
-    font-weight: 700;
+  color: white !important;
+  font-weight: 700;
 }
 
- /* contact us and logout */
-.main .sidebarWrapper .sidebar .ul-2{margin-top: 185px !important; margin-bottom: 0px !important;}
-.main .sidebarWrapper .sidebar .ul-2 li button{padding: 12px !important;  color:  #828282 !important; display: flex; align-items: center; justify-content: flex-start; border-radius: 16px !important; font-size: 13px !important;}
-.main .sidebarWrapper .sidebar .ul-2 li button .contactIcon{display: flex; align-items: left ; justify-content: right; height: 25px; font-weight: 700; }
-.main .sidebarWrapper .sidebar .ul-2 li button .contactIcon svg{color: #0b0b0b; font-size: 20px; opacity: 0.8; font-size: 22px; }
-.main .sidebarWrapper .sidebar .ul-2 li button .logOutIcon{display: flex; align-items: left ; justify-content: right; height: 25px;  font-weight: 700; }
-.main .sidebarWrapper .sidebar .ul-2 li button .logOutIcon svg{color: #FF0000; font-size: 20px; opacity: 0.8; font-size: 22px; }
-.main .sidebarWrapper .sidebar .ul-2 li button .contactIcon .icnC {margin-right: 12px; color: #848396;}
-.main .sidebarWrapper .sidebar .ul-2 li button .logOutIcon .icnL {margin-right: 12px; color:#FF0000}
+/* Contact us and logout */
+.main .sidebarWrapper .sidebar .ul-2 {
+  margin-top: 185px !important;
+  margin-bottom: 0px !important;
+}
 
+.main .sidebarWrapper .sidebar .ul-2 li button {
+  padding: 12px !important;
+  color: #828282 !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 16px !important;
+  font-size: 13px !important;
+}
 
-/* 
-........................Dashboard Area............................................................ */
-.content{width: 1254px; height: 706px;   margin-top: 85px;}
+.main .sidebarWrapper .sidebar .ul-2 li button .contactIcon {
+  display: flex;
+  align-items: left;
+  justify-content: right;
+  height: 25px;
+  font-weight: 700;
+}
+
+.main .sidebarWrapper .sidebar .ul-2 li button .contactIcon svg {
+  color: #0b0b0b;
+  font-size: 20px;
+  opacity: 0.8;
+  font-size: 22px;
+}
+
+.main .sidebarWrapper .sidebar .ul-2 li button .logOutIcon {
+  display: flex;
+  align-items: left;
+  justify-content: right;
+  height: 25px;
+  font-weight: 700;
+}
+
+.main .sidebarWrapper .sidebar .ul-2 li button .logOutIcon svg {
+  color: #FF0000;
+  font-size: 20px;
+  opacity: 0.8;
+  font-size: 22px;
+}
+
+.main .sidebarWrapper .sidebar .ul-2 li button .contactIcon .icnC {
+  margin-right: 12px;
+  color: #848396;
+}
+
+.main .sidebarWrapper .sidebar .ul-2 li button .logOutIcon .icnL {
+  margin-right: 12px;
+  color: #FF0000;
+}
+
+.content {
+  width: 1254px;
+  height: 706px;
+  margin-top: 85px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main .sidebarWrapper {
+    width: 60px;
+    flex: 0 0 60px;
+  }
+  .main .sidebarWrapper .sidebar {
+    width: 60px;
+  }
+  .main .sidebarWrapper .sidebar ul li button {
+    justify-content: center;
+    padding: 10px;
+  }
+  .main .sidebarWrapper .sidebar ul li button .icon {
+    margin-right: 0;
+  }
+  .content {
+    width: calc(100% - 60px);
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    height: auto;
+    padding: 10px;
+  }
+  header .logo img {
+    width: 40px;
+    height: 40px;
+  }
+  header .logo-title {
+    display: none;
+  }
+  .status,
+  .plan {
+    margin-left: 0;
+    font-size: 12px;
+  }
+  .main .sidebarWrapper {
+    width: 100%;
+    height: auto;
+  }
+  .main .sidebarWrapper .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .main .sidebarWrapper .sidebar ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .content {
+    width: 100%;
+    margin-top: 0;
+  }
+}
