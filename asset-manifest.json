@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ConvoBox/static/css/main.fc605717.css",
+    "main.js": "/ConvoBox/static/js/main.75a917be.js",
+    "static/js/453.f52b59f4.chunk.js": "/ConvoBox/static/js/453.f52b59f4.chunk.js",
+    "static/media/img.png": "/ConvoBox/static/media/img.c638b7f648f41899d9ec.png",
+    "index.html": "/ConvoBox/index.html",
+    "main.fc605717.css.map": "/ConvoBox/static/css/main.fc605717.css.map",
+    "main.75a917be.js.map": "/ConvoBox/static/js/main.75a917be.js.map",
+    "453.f52b59f4.chunk.js.map": "/ConvoBox/static/js/453.f52b59f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc605717.css",
+    "static/js/main.75a917be.js"
+  ]
+}
