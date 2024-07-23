@@ -1,7 +1,7 @@
-.dashboard { margin-top: 85px; height: 670px;}
+.dashboard { margin-top: 50px; height: 600px;}
 
-.dashboard .stepIndicator{  background: white; width: 726px; height: 51px; margin-left: 277px; border-radius: 50px; margin-top: -60px;}  
-.dashboard .footer{height: 80px; background: #fff; }
+.dashboard-container .stepIndicator{  background: white; width: 726px; height: 51px; margin-left: 277px; border-radius: 50px; margin-top: 27px;}  
+.dashboard .footer{height: 75px; background: #fff; }
 .dashboard .templateArea{ margin-left: 30px; height: 451px; background: #b786f7;}
 
 .footer-btn{ border-style: solid;

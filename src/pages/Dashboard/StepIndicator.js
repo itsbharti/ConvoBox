@@ -6,8 +6,8 @@ import StepButton from '@mui/material/StepButton';
 
 const steps = ['Select Template', 'Select Audience', 'Send Broadcasting'];
 
-const StepIndicator = () => {
-  const [activeStep, setActiveStep] = useState(0);
+const StepIndicator = ({activeStep, setActiveStep}) => {
+
 
   const handleStep = (step) => () => {
     setActiveStep(step);

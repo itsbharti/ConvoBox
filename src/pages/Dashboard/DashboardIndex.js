@@ -6,11 +6,13 @@ import SearchBox from "./SearchBox";
 import TemplateCard from "./TemplateCard";
 import { Grid } from '@mui/material';
 import templates from "../../data/TemplateData";
+import MapTemplateVariable from './MapTemplateVariable';
 
 const Dashboard = () => {
-    const [selectedCard, setSelectedCard] = useState(null);
 
+    const [selectedCard, setSelectedCard] = useState(null);
     const [searchName, setSearchName] = useState("")
+    const [activeStep, setActiveStep] = useState(0);
 
     const handleSelect = (index) => {
         setSelectedCard(index);
@@ -26,30 +28,40 @@ const Dashboard = () => {
 
  
     return (
+      <div className="dashboard-container">
+      <div className="stepIndicator d-flex align-items-center justify-content-center">
+      <StepIndicator activeStep={activeStep} setActiveStep={setActiveStep} />
+      </div>
         <div className="dashboard">
-        <div className="stepIndicator d-flex align-items-center justify-content-center">
-            <StepIndicator />
-        </div>
-        <SearchBox onSearch={handleSearch} className="searchBox" />
-        <div className="templateArea">
-            <Grid container spacing={2} className="templateCards" justifyContent="center">
-                {filteredTemplates.map((template, index) => (
-                    <Grid item key={index}>
+          
+          <div className="s-c-f">
+            {activeStep === 0 ? (
+              <>
+                <SearchBox onSearch={handleSearch} className="searchBox" />
+                <div className="templateArea">
+                  <Grid container spacing={2} className="templateCards" justifyContent="center">
+                    {filteredTemplates.map((template, index) => (
+                      <Grid item key={index}>
                         <TemplateCard
-                            {...template}
-                            selected={index === selectedCard}
-                            onSelect={() => handleSelect(index)}
+                          {...template}
+                          selected={index === selectedCard}
+                          onSelect={() => handleSelect(index)}
                         />
-                    </Grid>
-                ))}
-            </Grid>
+                      </Grid>
+                    ))}
+                  </Grid>
+                </div>
+                <div className="footer">
+                  <Footer setActiveStep={setActiveStep} />
+                </div>
+              </>
+            ) : (
+              <MapTemplateVariable />
+            )}
+          </div>
         </div>
-        <div className="footer">
-            <Footer />
         </div>
-    </div>
-
-    );
-}
-
-export default Dashboard;
+      );
+    };
+    
+    export default Dashboard;

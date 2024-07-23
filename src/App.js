@@ -10,6 +10,9 @@ import ConversationPage from './pages/Conversation/ConversationPage'
 import BroadcastingPage from './pages/Broadcasting/BroadcastingPage'
 import ContactPage from './pages/Contact/ContactPage';
 import TemplatePage from './pages/Templates/TemplatePage'
+import MapTemplateVariable from './pages/Dashboard/MapTemplateVariable';
+import BroadcastPage from './pages/Dashboard/BroadcastPage'
+import Message from './pages/Dashboard/Message';
 
 
 
@@ -31,6 +34,9 @@ function App() {
                      <Route path='/template' element={TemplatePage} />
                      <Route path='/contact' element={ContactPage} />
                      <Route path='/setting' element={SettingPage} />
+                     <Route path='/map-template-variable' element={<MapTemplateVariable />} />
+                     <Route path="/broadcast" element={<BroadcastPage />} />
+                     <Route path="/message" element={<Message />} />
                  </Routes>
             </div>
         </div>
