@@ -16,6 +16,7 @@ const Dashboard = () => {
 
     const handleSelect = (index) => {
         setSelectedCard(index);
+        
     };
 
     const handleSearch = (search) => {
