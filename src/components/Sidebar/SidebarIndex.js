@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import Button from '@mui/material/Button';
+import { useNavigate } from "react-router-dom";
 import { BsFillGridFill } from "react-icons/bs";
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
 import { CiSettings } from "react-icons/ci";
@@ -13,10 +14,13 @@ import { IoLogOutOutline } from "react-icons/io5";
 
 
 const Sidebar = () => {
+
     const [activeItem, setActiveItem] = useState('/');
+    const navigate = useNavigate();
 
     const handleItemClick = (path) => {
         setActiveItem(path);
+        navigate(path);
     }
     return(
         <>
